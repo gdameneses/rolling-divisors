@@ -1,0 +1,36 @@
+/*  divisor css */
+
+.divisors {
+  background-color: rgba(255 0 0 1 );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  height: 35vh;
+}
+
+.divisors-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.divisor {
+  flex-shrink: 0;
+  position: absolute;
+  height: 48px;
+  background-image: url(tape.png);
+  width: 120%;
+  transition: width 0.5s;
+}
+
+.divisor-left {
+  transform: rotate(3deg);
+}
+.divisor-right {
+  transform: rotate(357deg);
+}
+
+.divisor-after {
+  width: 150%;
+}
